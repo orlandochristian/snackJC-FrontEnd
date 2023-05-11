@@ -1,0 +1,32 @@
+.New form {
+    background-color: rgb(241, 237, 237);
+    border-radius: 7px;
+    margin: auto;
+    width: 95%;
+    padding: 20px;
+  }
+
+  input[type],
+  textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+  }
+  
+  input[type="number"] {
+    margin: 0;
+    width: 15%;
+  }
+  
+  input[type="submit"] {
+    background-color: rgb(229, 229, 239);
+    border-radius: 3px;
+    width: 30%;
+  }
+
+  .PFS {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+
+  }
