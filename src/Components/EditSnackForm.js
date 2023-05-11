@@ -15,12 +15,10 @@ function EditSnackForm() {
     protein: 0,
     fiber: 0,
     sugar: 0,
-   
   });
 
   const updatedSnack = (updateSnack, snackId) => {
 
-   
     axios
       .put(`${API}/snacks/${snackId}`, updateSnack)
       .then(
@@ -31,6 +29,7 @@ function EditSnackForm() {
       )
       .catch((c) => console.warn("catch", c));
   };
+
 
   const handleTextChange = (event) => {
     console.log(event.target.value)
@@ -67,7 +66,7 @@ function EditSnackForm() {
         <input
           id="protein"
           type="number"
-          value={Number(snack.protein)}
+          value={snack.protein}
           onChange={handleTextChange}
           required
         />
@@ -92,7 +91,7 @@ function EditSnackForm() {
           name="sugar"
           value={Number(snack.sugar)}
           onChange={handleTextChange}
-        
+          placeholder={snack.sugar}
           required
 
           

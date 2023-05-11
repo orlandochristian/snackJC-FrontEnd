@@ -21,21 +21,21 @@ function SnackDetails() {
     })
   }, [snackId]);
 
-//   const handleDelete = () => {
+  const handleDelete = () => {
    
-//     deleteSnack();
-//   };
+    deleteSnack();
+  };
 
-//   const deleteSnack = () => {
-//     axios
-//       .delete(`${API}/snacks/${snackId}`)
-//       .then(() => {
-//         navigate(`/snacks`);
-//       })
-//       .catch((e) => {
-//         console.warn("catch:", e);
-//       });
-//   };
+  const deleteSnack = () => {
+    axios
+      .delete(`${API}/snacks/${snackId}`)
+      .then(() => {
+        navigate(`/snacks`);
+      })
+      .catch((e) => {
+        console.warn("catch:", e);
+      });
+  };
 
 return (
   <article>
@@ -56,35 +56,11 @@ return (
         <button>Edit</button>
       </Link>
     </div>
-    {/* <div>
-      <Link to={`/`}>
-        <button>Delete</button>
-      </Link>
-    </div> */}
-    {/* <h1>Abum: {album.name} - By {album.artist}</h1>
-    <h2>
-      <span>
-        Genre:
-      </span>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {album.genre}
-    </h2>
-    <h3>Producer: {album.producer}</h3>
-    <div className="showNavigation">
-      <div>
-        <Link to={`/albums`}>
-          <button>Back</button>
-        </Link>
-      </div>
-      <div>
-        <Link to={`/albums/${album.album_id}/edit`}>
-          <button>Edit</button>
-        </Link>
-      </div>
-      <div>
-        <button onClick={handleDelete}>Delete</button>
-      </div>
+    <div>
+      <button onClick={handleDelete}>Delete</button>
     </div>
-    <h3>Songs</h3> */}
+
+  
   </article>
 ); 
 }
