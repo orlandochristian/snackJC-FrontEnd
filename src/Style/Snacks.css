@@ -1,0 +1,36 @@
+.Snacks{
+    background-color: rgb(235, 225, 225);
+    border-radius: 10px;
+    padding: 2em;
+    box-shadow: 2px 2px 4px rgb(188, 182, 182);
+    margin: 20px auto;
+    width: 80%;
+  }
+  
+  .all-snacks {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .onesnack {
+    border: 1px solid black;
+    border-radius: 3px;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 5px grey;
+  }
+
+  .onesnack img {
+    padding-bottom: 10px;
+    width: 120px;
+    height: 120px;
+    opacity: 0.8;
+    box-shadow: 10px 5px 5px grey;
+  }
+
+  .onesnack:hover{
+   transform: scale(1.1); 
+   box-shadow: 5px 5px 5px black;
+  }
