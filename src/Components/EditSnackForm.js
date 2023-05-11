@@ -12,15 +12,17 @@ function EditSnackForm() {
 
   const [snack, setSnack] = useState({
     name: "",
-    protein: "",
-    fiber: "",
-    sugar: "",
-    snack_id: snackId,
+    protein: 0,
+    fiber: 0,
+    sugar: 0,
+   
   });
 
   const updatedSnack = (updateSnack, snackId) => {
+
+   
     axios
-      .put(`${API}/snack/${snackId}`, updateSnack)
+      .put(`${API}/snacks/${snackId}`, updateSnack)
       .then(
         () => {
           navigate(`/snacks/${snackId}`);
@@ -31,7 +33,9 @@ function EditSnackForm() {
   };
 
   const handleTextChange = (event) => {
+    console.log(event.target.value)
     setSnack({ ...snack, [event.target.id]: event.target.value });
+    console.log(snack)
   };
 
   useEffect(() => {
@@ -62,10 +66,9 @@ function EditSnackForm() {
         <label htmlFor="protein">Protein:</label>
         <input
           id="protein"
-          type="text"
-          value={snack.protein}
+          type="number"
+          value={Number(snack.protein)}
           onChange={handleTextChange}
-          placeholder="Protein %"
           required
         />
         <br/>
@@ -74,22 +77,22 @@ function EditSnackForm() {
         <label htmlFor="fiber">Fiber:</label>
         <input
           id="fiber"
-          type="text"
+          type="number"
           name="fiber"
-          value={snack.fiber}
+          value={Number(snack.fiber)}
           onChange={handleTextChange}
-          placeholder="Fiber %"
+      
           required
         />
         <br/>
         <label htmlFor="sugar">Sugar:</label>
         <input
           id="sugar"
-          type="text"
+          type="number"
           name="sugar"
-          value={snack.sugar}
+          value={Number(snack.sugar)}
           onChange={handleTextChange}
-          placeholder="Sugar %"
+        
           required
 
           

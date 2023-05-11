@@ -21,21 +21,21 @@ function SnackDetails() {
     })
   }, [snackId]);
 
-  const handleDelete = () => {
+//   const handleDelete = () => {
    
-    deleteSnack();
-  };
+//     deleteSnack();
+//   };
 
-  const deleteSnack = () => {
-    axios
-      .delete(`${API}/snacks/${snackId}`)
-      .then(() => {
-        navigate(`/snacks`);
-      })
-      .catch((e) => {
-        console.warn("catch:", e);
-      });
-  };
+//   const deleteSnack = () => {
+//     axios
+//       .delete(`${API}/snacks/${snackId}`)
+//       .then(() => {
+//         navigate(`/snacks`);
+//       })
+//       .catch((e) => {
+//         console.warn("catch:", e);
+//       });
+//   };
 
 return (
   <article>
@@ -52,15 +52,15 @@ return (
       </Link>
     </div>
     <div>
-      <Link to={`/snacks/:snackId/edit`}>
+      <Link to={`/snacks/${snackId}/edit`}>
         <button>Edit</button>
       </Link>
     </div>
-    <div>
+    {/* <div>
       <Link to={`/`}>
         <button>Delete</button>
       </Link>
-    </div>
+    </div> */}
     {/* <h1>Abum: {album.name} - By {album.artist}</h1>
     <h2>
       <span>
