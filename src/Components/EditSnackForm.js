@@ -12,15 +12,15 @@ function EditSnackForm() {
 
   const [snack, setSnack] = useState({
     name: "",
-    protein: "",
-    fiber: "",
-    sugar: "",
-    snack_id: snackId,
+    protein: 0,
+    fiber: 0,
+    sugar: 0,
   });
 
   const updatedSnack = (updateSnack, snackId) => {
+
     axios
-      .put(`${API}/snack/${snackId}`, updateSnack)
+      .put(`${API}/snacks/${snackId}`, updateSnack)
       .then(
         () => {
           navigate(`/snacks/${snackId}`);
@@ -29,6 +29,7 @@ function EditSnackForm() {
       )
       .catch((c) => console.warn("catch", c));
   };
+
 
   const handleTextChange = (event) => {
     setSnack({ ...snack, [event.target.id]: event.target.value });
@@ -62,7 +63,7 @@ function EditSnackForm() {
         <label htmlFor="protein">Protein:</label>
         <input
           id="protein"
-          type="text"
+          type="number"
           value={snack.protein}
           onChange={handleTextChange}
           placeholder="Protein %"
@@ -74,7 +75,7 @@ function EditSnackForm() {
         <label htmlFor="fiber">Fiber:</label>
         <input
           id="fiber"
-          type="text"
+          type="number"
           name="fiber"
           value={snack.fiber}
           onChange={handleTextChange}
@@ -85,11 +86,11 @@ function EditSnackForm() {
         <label htmlFor="sugar">Sugar:</label>
         <input
           id="sugar"
-          type="text"
+          type="number"
           name="sugar"
           value={snack.sugar}
           onChange={handleTextChange}
-          placeholder="Sugar %"
+          placeholder={snack.sugar}
           required
 
           

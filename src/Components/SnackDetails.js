@@ -52,15 +52,14 @@ return (
       </Link>
     </div>
     <div>
-      <Link to={`/snacks/:snackId/edit`}>
+      <Link to={`/snacks/${snackId}/edit`}>
         <button>Edit</button>
       </Link>
     </div>
     <div>
-      <Link to={`/`}>
-        <button>Delete</button>
-      </Link>
+      <button onClick={handleDelete}>Delete</button>
     </div>
+
     {/* <h1>Abum: {album.name} - By {album.artist}</h1>
     <h2>
       <span>
