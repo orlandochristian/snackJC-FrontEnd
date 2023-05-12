@@ -66,6 +66,7 @@ function NewSnackForm() {
           id="fiber"
           type="number"
           name="fiber"
+          min="0"
           value={snack.fiber}
           onChange={handleTextChange}
           placeholder="% of Fiber"
@@ -75,6 +76,7 @@ function NewSnackForm() {
           id="protein"
           type="number"
           name="protein"
+          min="0"
           value={snack.protein}
           onChange={handleTextChange}
           placeholder="% of Protein"
@@ -84,6 +86,7 @@ function NewSnackForm() {
           id="sugar"
           type="number"
           name="sugar"
+          min="0"
           value={snack.sugar}
           onChange={handleTextChange}
           placeholder="% of Sugar"
