@@ -1,9 +1,9 @@
 .New form {
-    background-color: rgb(241, 237, 237);
+    background-color: rgb(225, 230, 230);
     border-radius: 7px;
     margin: auto;
     width: 70%;
-    padding: 20px;
+    padding: 30px;
   }
 
   input[type],
@@ -19,9 +19,15 @@
   }
   
   input[type="submit"] {
-    background-color: rgb(229, 229, 239);
+    background-color: rgb(220, 220, 220);
     border-radius: 3px;
     width: 30%;
+    padding: 5px;
+  }
+
+  input[type="submit"]:hover {
+    background-color: lightblue;
+   
   }
 
   .PFS {

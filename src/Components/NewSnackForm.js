@@ -40,6 +40,7 @@ function NewSnackForm() {
   };
   return (
     <div className="New">
+      <h3><b>Add Snack</b></h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Snack Name:</label>
         <input
@@ -51,13 +52,16 @@ function NewSnackForm() {
           placeholder="Name of Snack"
           
         />
-        <label htmlFor="image">Snack Image</label>
+        <label htmlFor="image">Snack Image:</label>
         <input
           id="image"
           type="text"
+          pattern="https[s]*://.+"
+          title="a valid url is required"
           value={snack.image}
           placeholder="Image Url"
           onChange={handleTextChange}
+          required
         />
 
         <div className="PFS">
