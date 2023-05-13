@@ -11,14 +11,14 @@ export default function NavBar() {
           <span>Snacks</span>
         </h1>
       </Link>
-      <br />
+      {/* <br /> */}
       <button>
         <Link to="/snacks/new">New Snack</Link>
       </button>
-      <br />
-      <button>
+      {/* <br /> */}
+      {/* <button>
         <Link to="">About</Link>
-      </button> 
+      </button>  */}
     </nav>
   );
 }

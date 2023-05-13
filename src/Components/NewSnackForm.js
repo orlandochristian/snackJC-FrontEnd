@@ -21,10 +21,10 @@ function NewSnackForm() {
   };
 
   const [snack, setSnack] = useState({
-    name: "",
-    image: "",
-    fiber: "",
-    protein: "",
+    name:"",
+    image:"",
+    fiber:"",
+    protein:"",
     sugar: "",
   });
 
