@@ -1,0 +1,74 @@
+
+.article-detail {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    
+}
+
+.snackDetails {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.corazon {
+    width: 80px;
+    height: 80px;
+}
+
+.snack-img {
+    width: 200px;
+    height: 200px;
+}
+
+.snacks-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px;
+   
+}
+
+.back {
+    background-color: rgb(220, 220, 220);
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.back:hover {
+    background-color: lightgreen;
+}
+
+
+.edit {
+    background-color: rgb(220, 220, 220);
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.edit:hover {
+    background-color: lightyellow;
+}
+
+.delete {
+    background-color: rgb(220, 220, 220);
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.delete:hover {
+    background-color: lightcoral;
+}
+
+.parrafo {
+    background-color: rgb(235, 235, 235);
+    padding: 5px;
+}

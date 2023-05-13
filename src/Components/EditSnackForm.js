@@ -32,7 +32,9 @@ function EditSnackForm() {
 
 
   const handleTextChange = (event) => {
+    console.log(event.target.value)
     setSnack({ ...snack, [event.target.id]: event.target.value });
+    console.log(snack)
   };
 
   useEffect(() => {
@@ -66,7 +68,6 @@ function EditSnackForm() {
           type="number"
           value={snack.protein}
           onChange={handleTextChange}
-          placeholder="Protein %"
           required
         />
         <br/>
@@ -77,9 +78,9 @@ function EditSnackForm() {
           id="fiber"
           type="number"
           name="fiber"
-          value={snack.fiber}
+          value={Number(snack.fiber)}
           onChange={handleTextChange}
-          placeholder="Fiber %"
+      
           required
         />
         <br/>
@@ -88,7 +89,7 @@ function EditSnackForm() {
           id="sugar"
           type="number"
           name="sugar"
-          value={snack.sugar}
+          value={Number(snack.sugar)}
           onChange={handleTextChange}
           placeholder={snack.sugar}
           required

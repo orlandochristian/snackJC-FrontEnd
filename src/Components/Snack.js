@@ -11,23 +11,6 @@ function Snack({ snack }) {
         </article>
         </Link>
       
-    // <tr>
-    //   <td>
-    //     {snack.name}
-    //   </td>
-    //   <td>
-    //     {snack.image}
-    //   </td>
-    //   <td>
-    //     {snack.protein}
-    //   </td>
-    //   <td>
-    //     {snack.sugar}
-    //   </td>
-    //   <td>
-    //     <Link to={`/snacks/${snack.snack_id}`}>✏️</Link>
-    //   </td>
-    // </tr>
   );
 }
 
