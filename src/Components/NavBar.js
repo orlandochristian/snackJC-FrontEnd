@@ -1,15 +1,13 @@
 import { Link } from "react-router-dom";
 import  "../Style/NavBar.css"
-import "./About.js"
+//import "./About.js"
 
 
 export default function NavBar() {
   return (
-    <nav>
-      <Link to="/snacks">
-        <h1>
-          <span>Snacks</span>
-        </h1>
+    <nav className="logo">
+      <Link to="/">
+         <img src="https://img.lovepik.com/free-png/20210924/lovepik-fast-food-snack-icon-png-image_401357238_wh1200.png" alt="snack pic" />  
       </Link>
       <br />
       <button>
@@ -17,7 +15,7 @@ export default function NavBar() {
       </button>
       <br />
       <button>
-        <Link to="">About</Link>
+        <Link to="/">About</Link>
       </button> 
     </nav>
   );

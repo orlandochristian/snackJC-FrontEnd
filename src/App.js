@@ -12,7 +12,7 @@ import SnackEdit from "./Pages/SnackEdit";
 
 // COMPONENTS
 import NavBar from "./Components/NavBar";
-import About from "./Components/About";
+//import About from "./Components/About";
 
 
 function App() {
