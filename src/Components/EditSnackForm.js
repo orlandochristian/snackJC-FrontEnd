@@ -11,7 +11,7 @@ function EditSnackForm() {
   let navigate = useNavigate();
 
   const [snack, setSnack] = useState({
-    name: "",
+    name:"",
     protein: 0,
     fiber: 0,
     sugar: 0,

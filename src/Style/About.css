@@ -1,0 +1,34 @@
+h2 {
+    text-align: center;
+    font-family:;
+    color:black;
+}
+
+h3 {
+    color:black;
+    text-align: center;
+}
+
+.bio-name {
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+}
+
+.bio-text-co {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+}
+
+.bio-text-js {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 18px;
+}
+
+.icon {
+    padding: 10px;
+}
