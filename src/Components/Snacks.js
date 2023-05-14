@@ -12,7 +12,9 @@ function Snacks() {
     axios
       .get(`${API}/snacks`)
       .then((response) => {
+        console.log(response.data)
         setSnacks(response.data);
+        
       })
       .catch((e) => {
         console.warn("catch", e);
@@ -24,6 +26,7 @@ function Snacks() {
       <section className="Snacks">
           <p>Snacks</p>
           <article className="all-snacks">
+             
             {snacks.map((snack) => {
               return <Snack key={snack.snack_id} snack={snack} />;
             })}
