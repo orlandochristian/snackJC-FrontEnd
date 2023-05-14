@@ -71,4 +71,5 @@
 .parrafo {
     background-color: rgb(235, 235, 235);
     padding: 5px;
+    border-radius: 5px;
 }
