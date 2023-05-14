@@ -39,9 +39,9 @@ function SnackDetails() {
 
 
   const handleDelete = () => {
-   
-    deleteSnack();
-  };
+    if (window.confirm("Are you sure you want to delete?")) {
+        deleteSnack();
+  }}
 
   const deleteSnack = () => {
     axios
