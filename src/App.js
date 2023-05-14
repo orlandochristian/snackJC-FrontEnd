@@ -12,11 +12,7 @@ import SnackEdit from "./Pages/SnackEdit";
 
 // COMPONENTS
 import NavBar from "./Components/NavBar";
-<<<<<<< HEAD
-// import About from "./Components/About";
-=======
 //import About from "./Components/About";
->>>>>>> cf581ccfea1e243a13deb94b10516ac51e53d049
 
 
 function App() {
