@@ -5,11 +5,10 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-
-      <h3>Meet The Devs!</h3>
+    {/* <h3>Meet The Devs!</h3> */}
       <img
         className="christian-photo"
-        src="christian.png"
+        src="https://avatars.githubusercontent.com/u/115159441?v=4"
         alt="Christian Orlando"
       ></img>
       <br></br>
@@ -26,7 +25,7 @@ const About = () => {
         occaecat cupidatat non proident, sunt in culpa qui officia deserunt
         mollit anim id est laborum
       </p>
-      <a href="https://github.com/">
+      <a href="https://github.com/orlandochristian">
         <img
           className="icon"
           alt="GitHub"
@@ -44,21 +43,22 @@ const About = () => {
       </a>
       <br></br>
       <br></br>
-      <img className="jyoti-photo" src="jyoti.png" alt="Jyoti Singh"></img>
+      <img
+        className="jyoti-photo"
+        src="https://avatars.githubusercontent.com/u/47873538?v=4"
+        alt="Jyoti Singh"
+      ></img>
       <br></br>
       <h4 className="bio-name">
         <em>Jyoti Singh</em>
       </h4>
       <p className="bio-text-js">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum
+       I'm a full stack developer with a background in criminal justice from Queens,NY.
+       {/* {describe project focus} */}
+       My favorite snacks are chocolate covered pretzels and onigiri. 
+       Please check out my links below to connect with me.
       </p>
-      <a href="https://github.com">
+      <a href="https://github.com/jy0ti-s">
         <img
           className="icon"
           alt="GitHub"
@@ -66,7 +66,7 @@ const About = () => {
           src="./icons/github.png"
         />
       </a>
-      <a href="https://www.linkedin.com">
+      <a href="https://www.linkedin.com/in/jyoti-s-134ab3195/">
         <img
           className="icon"
           alt="LinkedIn"
