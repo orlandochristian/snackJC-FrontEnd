@@ -53,6 +53,7 @@ function EditSnackForm() {
 
   return (
     <div className="Edit">
+      <h3><b>Edit Snack Details</b></h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Snack Name:</label>
         <input
@@ -63,7 +64,7 @@ function EditSnackForm() {
           placeholder="Name of Snack"
           required
         />
-        <br/>
+        <br />
         <label htmlFor="protein">Protein:</label>
         <input
           id="protein"
@@ -73,9 +74,9 @@ function EditSnackForm() {
           placeholder={snack.protein}
           required
         />
-        <br/>
-    
-        <br/>
+        <br />
+
+        <br />
         <label htmlFor="fiber">Fiber:</label>
         <input
           id="fiber"
@@ -84,10 +85,9 @@ function EditSnackForm() {
           value={Number(snack.fiber)}
           onChange={handleTextChange}
           placeholder={snack.fiber}
-      
           required
         />
-        <br/>
+        <br />
         <label htmlFor="sugar">Sugar:</label>
         <input
           id="sugar"
@@ -97,16 +97,15 @@ function EditSnackForm() {
           onChange={handleTextChange}
           placeholder={snack.sugar}
           required
-
-          
         />
-        <div className='nav-buttons'>
-          <Link to={`/snacks/${snackId}`}><button>Back</button></Link> 
+        <div className="nav-buttons">
+          <Link to={`/snacks/${snackId}`}>
+            <button>Back</button>
+          </Link>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <button type="submit">Submit</button>
         </div>
       </form>
-      
     </div>
   );
 }

@@ -40,7 +40,7 @@ function NewSnackForm() {
   };
   return (
     <div className="New">
-      <h3><b>Add Snack</b></h3>
+      <h3><b>Add New Snack</b></h3>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name">Snack Name:</label>
         <input
