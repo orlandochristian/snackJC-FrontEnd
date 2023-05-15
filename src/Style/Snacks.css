@@ -1,5 +1,5 @@
 .Snacks{
-    background-image: linear-gradient(to right,rgb(255,0, 0, 0),rgb(255, 230, 80));
+  background-image: linear-gradient(to right,rgb(255, 230, 80),rgb(255,0, 0, 0),rgb(255, 230, 80));
     border-radius: 10px;
     padding: 2em;
     box-shadow: 2px 2px 4px rgb(188, 182, 182);

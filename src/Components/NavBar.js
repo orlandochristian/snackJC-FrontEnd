@@ -17,7 +17,7 @@ export default function NavBar() {
      
             <li><Link to="/snacks/new">New Snack</Link></li>
      
-            <li><Link to="/">About</Link></li>
+            <li><Link to="/about">About</Link></li>
         </ul>
       </nav>
        

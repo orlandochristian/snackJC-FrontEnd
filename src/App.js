@@ -12,7 +12,7 @@ import SnackEdit from "./Pages/SnackEdit";
 
 // COMPONENTS
 import NavBar from "./Components/NavBar";
-//import About from "./Components/About";
+import About from "./Components/About";
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
             <Route path="/snacks/new" element={<NewSnack />} />
             <Route path="/snacks/:snackId/edit" element={<SnackEdit />} />
             <Route exact path="/snacks/:snackId" element={<SnackById />} />
-            {/* <Route path="/" element ={ <About / >} */}
+            <Route path="/about" element ={<About />} />
             {/* 
             
             
