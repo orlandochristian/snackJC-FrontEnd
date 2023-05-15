@@ -6,14 +6,14 @@ The objective of this project is to develop a user-friendly web application that
 Features
 -------------------
 
-*Snack logging: users can add a new snack by entering its name, image link, and brief nutritional information
-*Snack history: the app will store a record of all previously logged snacks
-*Nutritional information: the app will display the nutritional values for each snack.
-*Snack rating: the hearts will indicate if a snack is a healthy option or not based on its nutritional value
-*Information functionality: users can view infomation for a specific snack from the snack log.
+* Snack logging: users can add a new snack by entering its name, image link, and brief nutritional information
+* Snack history: the app will store a record of all previously logged snacks
+* Nutritional information: the app will display the nutritional values for each snack.
+* Snack rating: the hearts will indicate if a snack is a healthy option or not based on its nutritional value
+* Information functionality: users can view infomation for a specific snack from the snack log.
 
 
-The Snacks App provides a simple yet effective way for individuals to track their snacking habits and make healthier choices. With its user-friendly interface and personalized features, the Snacks App is an ideal solution for anyone looking to improve their snacking habits and lead a healthier lifestyle.
+The Snacks App provides a simple yet effective way for individuals to track their snacking habits and make healthier choices. With its user-friendly interface the Snacks App is an ideal solution for anyone looking to improve their snacking habits and lead a healthier lifestyle.
 
 
 Helpful Links!
