@@ -27,20 +27,10 @@ const About = () => {
             mustard!
           </p>
           <a href="https://github.com/orlandochristian">
-            <img
-              className="icon"
-              alt="GitHub"
-              title="GitHub"
-              src="github.png"
-            />
+          
           </a>
           <a href="https://www.linkedin.com">
-            <img
-              className="icon"
-              alt="LinkedIn"
-              title="LinkedIn"
-              src="linkedin.png"
-            />
+            
           </a>
         </div>
         <div className="bothjc">
@@ -59,20 +49,10 @@ const About = () => {
             and onigiri. When I'm not coding I enjoy exploring nature!
             </p>
           <a href="https://github.com/jy0ti-s">
-            <img
-              className="icon"
-              alt="GitHub"
-              title="GitHub"
-              src="github.png"
-            />
+          
           </a>
           <a href="https://www.linkedin.com/in/jyoti-s-134ab3195/">
-            <img
-              className="icon"
-              alt="LinkedIn"
-              title="LinkedIn"
-              src="linkedin.png"
-            />
+          
           </a>
     </div>
       </div>
