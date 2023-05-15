@@ -1,0 +1,42 @@
+.Edit Form {
+    background-color: rgb(225, 230, 230);
+    border-radius: 7px;
+    margin: auto;
+    width: 70%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+input[type],
+textarea {
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+
+input[type="number"] {
+    margin: 0;
+    width: 15%;
+}
+
+input[type="submit"] {
+    background-color: rgb(220, 220, 220);
+    border-radius: 3px;
+    width: 30%;
+    padding: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+}
+
+/* .PFS {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+} */
+

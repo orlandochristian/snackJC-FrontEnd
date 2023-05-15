@@ -53,10 +53,10 @@ const About = () => {
             <em>Jyoti Singh</em>
           </h4>
           <p className="bio-text-js">
-            I'm a full stack developer with a background in criminal justice
-            from Queens,NY. My favorite snacks are chocolate covered pretzels
-            and onigiri.
-          </p>
+            I am a full stack developer with a background in criminal justice
+            from Queens,NY.My favorite snacks are chocolate covered pretzels
+            and onigiri. When I'm not coding I enjoy exploring nature!
+            </p>
           <a href="https://github.com/jy0ti-s">
             <img
               className="icon"
@@ -73,7 +73,7 @@ const About = () => {
               src="linkedin.png"
             />
           </a>
-        </div>
+    </div>
       </div>
     </div>
   );

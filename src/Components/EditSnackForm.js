@@ -2,6 +2,8 @@ import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
+import SnackById from "../Pages/SnackById";
+import "../Style/SnackEdit.css";
 
 const API = process.env.REACT_APP_API_URL;
 
@@ -40,7 +42,7 @@ function EditSnackForm() {
   useEffect(() => {
     axios.get(`${API}/snacks/${snackId}`).then(
       (response) => setSnack(response.data)
-      //(error) => navigate(`/not-found`)
+      // (error) => navigate(`/not-found`)
     );
   }, [snackId]);
 
@@ -66,8 +68,9 @@ function EditSnackForm() {
         <input
           id="protein"
           type="number"
-          value={snack.protein}
+          value={Number(snack.protein)}
           onChange={handleTextChange}
+          placeholder={snack.protein}
           required
         />
         <br/>
@@ -80,6 +83,7 @@ function EditSnackForm() {
           name="fiber"
           value={Number(snack.fiber)}
           onChange={handleTextChange}
+          placeholder={snack.fiber}
       
           required
         />
