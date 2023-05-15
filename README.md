@@ -23,8 +23,6 @@ Daily Stand Up [Trello](https://trello.com/b/YKjuzd8g/snack-log)
 
 Deployment [Netlify](https://jazzy-youtiao-4c5303.netlify.app/) [Render](https://snackjc-backend.onrender.com)
 
-WireFrame [Canva](https://www.canva.com/design/DAFinaKVqmc/GwTC7YMxrpIdq2rMPy1Q3w/edit)
-
 Back-End [Github](https://github.com/orlandochristian/snackJC-BackEnd)
 
 WireFrame [Canva](https://www.canva.com/design/DAFinaKVqmc/GwTC7YMxrpIdq2rMPy1Q3w/edit)
