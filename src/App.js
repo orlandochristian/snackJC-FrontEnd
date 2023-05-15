@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // PAGES
 // import EditAlbum from "./Pages/EditSnack";
-// // import FourOFour from "./Pages/FourOFour";
+import FourOFour from "./Pages/FourOFour";
 import Home from "./Pages/Home";
 import Index from "./Pages/Index";
 import NewSnack from "./Pages/NewSnack";
@@ -28,10 +28,11 @@ function App() {
             <Route path="/snacks/:snackId/edit" element={<SnackEdit />} />
             <Route exact path="/snacks/:snackId" element={<SnackById />} />
             <Route path="/about" element ={<About />} />
-            {/* 
+            <Route path="*" element={<FourOFour />} /> 
             
             
-            <Route path="*" element={<FourOFour />} /> */}
+            
+           
           </Routes>
         </main>
       </Router>
