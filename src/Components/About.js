@@ -26,22 +26,15 @@ const About = () => {
             favorite snack, soft or hard, plain or topped with salt cheese or
             mustard!
           </p>
+
+          <div className='dflex'>
           <a href="https://github.com/orlandochristian">
-            <img
-              className="icon-g"
-              alt="GitHub"
-              title="GitHub"
-              src="github.png"
-            />
+            GitHub
           </a>
           <a href="https://www.linkedin.com">
-            <img
-              className="icon-l"
-              alt="LinkedIn"
-              title="LinkedIn"
-              src="linkedin.png"
-            />
+            LinkedIn
           </a>
+          </div>
         </div>
         <div className="bothjc">
           <img
@@ -55,25 +48,18 @@ const About = () => {
           </h4>
           <p className="bio-text-js">
             I am a full stack developer with a background in criminal justice
-            from Queens,NY.My favorite snacks are chocolate covered pretzels
+            from Queens,NY.<br></br>My favorite snacks are chocolate covered pretzels
             and onigiri. When I'm not coding I enjoy exploring nature!
             </p>
-          <a href="https://github.com/jy0ti-s">
-            <img
-              className="icon-g"
-              alt="GitHub"
-              title="GitHub"
-              src="github.png"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/jyoti-s-134ab3195/">
-            <img
-              className="icon-l"
-              alt="LinkedIn"
-              title="LinkedIn"
-              src="linkedin.png"
-            />
-          </a>
+          <div className='dflex'>
+            <a href="https://github.com/jy0ti-s">
+               GitHub
+            </a>
+             <a href="https://www.linkedin.com/in/jyoti-s-134ab3195/">
+               LinkedIn
+            </a>
+          </div>  
+          
     </div>
       </div>
     </div>
