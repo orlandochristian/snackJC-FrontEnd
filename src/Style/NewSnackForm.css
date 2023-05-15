@@ -4,7 +4,17 @@
     margin: auto;
     width: 70%;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: auto;
   }
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
 
   input[type],
   textarea {
@@ -23,11 +33,11 @@
     border-radius: 3px;
     width: 30%;
     padding: 5px;
+    text-align: center;
   }
 
   input[type="submit"]:hover {
     background-color: lightblue;
-   
   }
 
   .PFS {

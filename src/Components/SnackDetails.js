@@ -79,7 +79,11 @@ return (
       <button className="delete" onClick={handleDelete}>Delete</button>
     </div>
 
-    <p className="parrafo">If protein or fiber is greater than 5% and sugar is less than 5% then is healthy <br></br>  not-healthy  🖤- healthy 🧡  </p>
+    <p className="parrafo">If the protein or fiber is greater than 5% and sugar is less then 5% the snack is healthy.
+    <br/>
+    <br/>
+    unhealthy 🖤 <br/>
+    healthy 🧡  </p>
 
     </div>
   </article>
