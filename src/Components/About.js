@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 
 import '../Style/About.css';
+import image from '../Pics/GitHub-logo.png';
 
 
 const About = () => {
@@ -21,7 +22,7 @@ const About = () => {
           </h4>
           <p className="bio-text-co">
             I'm excited to introduce myself as a developer with a passion for
-            coding.In my free time, I enjoy snacking on pretzels, which are my
+            coding.<br></br>In my free time, I enjoy snacking on pretzels, which are my
             favorite snack, soft or hard, plain or topped with salt cheese or
             mustard!
           </p>
