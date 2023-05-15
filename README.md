@@ -27,7 +27,5 @@ WireFrame [Canva](https://www.canva.com/design/DAFinaKVqmc/GwTC7YMxrpIdq2rMPy1Q3
 
 Back-End [Github](https://github.com/orlandochristian/snackJC-BackEnd)
 
-<<<<<<< HEAD
 WireFrame [Canva](https://www.canva.com/design/DAFinaKVqmc/GwTC7YMxrpIdq2rMPy1Q3w/edit)
-=======
->>>>>>> 67cc9a2381117ddf487ba70a6f7e98adfd0c1df5
+
