@@ -25,4 +25,5 @@ Deployment [Netlify](https://jazzy-youtiao-4c5303.netlify.app/) [Render](https:/
 
 WireFrame [Canva](https://www.canva.com/design/DAFinaKVqmc/GwTC7YMxrpIdq2rMPy1Q3w/edit).
 
-Back-End [Github] (https://github.com/orlandochristian/snackJC-BackEnd)
+Back-End [Github](https://github.com/orlandochristian/snackJC-BackEnd)
+
