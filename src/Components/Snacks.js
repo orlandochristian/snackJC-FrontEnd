@@ -12,7 +12,7 @@ function Snacks() {
     axios
       .get(`${API}/snacks`)
       .then((response) => {
-        console.log("hello")
+       
         setSnacks(response.data);
 
       })
@@ -27,9 +27,9 @@ function Snacks() {
           <p>Snacks</p>
           <article className="all-snacks">
              
-            {/* {snacks.map((snack) => {
+            {snacks.map((snack) => {
               return <Snack key={snack.snack_id} snack={snack} />;
-            })} */}
+            })}
          </article>
       </section>
    
