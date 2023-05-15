@@ -20,11 +20,9 @@
     padding: 5px;
    }
 .team-about {
- 
     margin-top: 50px;
     margin-left: 30px;
     margin-right: 30px;
-
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -58,4 +56,16 @@
 
 .bio-text-js {
     padding: 10px;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+.dflex a {
+    padding: 30px;
 }
