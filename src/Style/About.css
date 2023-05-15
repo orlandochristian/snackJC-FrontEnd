@@ -33,14 +33,35 @@
     
 }
 
-.aboutboth h3 {
-    text-align: center;
-}
+
 
 .mtd {
     text-align: center;
 }
 
+
+.direction-row {
+    display: flex;
+    flex-direction: row;
+}
+.linkedin {
+    background-image: url("https://logos-world.net/wp-content/uploads/2020/05/Linkedin-Logo.png");
+    background-size: cover;
+   
+    border-radius: 5px;
+}
+
+.github {
+    /* background-image: url("../../public/GitHub-logo.png"); */
+    background-size: cover;
+    height: 55px;
+    width: 133px;
+    border-radius: 5px;
+}
+
+.github:hover {
+    cursor: pointer;
+}
 
 /* .icon-lin {
     background-image: url("../Pics/linkedin-logo.png");

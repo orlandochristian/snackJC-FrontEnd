@@ -2,6 +2,7 @@ import React from 'react';
 // import { Link } from "react-router-dom";
 
 import '../Style/About.css';
+import image from '../Pics/GitHub-logo.png';
 
 
 const About = () => {
@@ -20,27 +21,20 @@ const About = () => {
         <em>Christian Orlando</em>
       </h4>
       <p className="bio-text-co">
-      I'm a full stack developer with a background in criminal justice from Queens,NY.
+        I'm excited to introduce myself as a developer with a passion for coding.
+     
        {/* {describe project focus} */}
-       My favorite snacks are chocolate covered pretzels and onigiri. 
-       Please check out my links below to connect with me.
+       In my free time, I enjoy snacking on pretzels, which are my favorite snack,
+       soft or hard, plain or topped with salt cheese or mustard.
+      
+       
       </p>
-      <a href="https://github.com/orlandochristian">
-        <img
-          className="icon"
-          alt="GitHub"
-          title="GitHub"
-          src="./icons/github.png"
-        />
-      </a>
-      <a href="https://www.linkedin.com">
-        <img
-          className="icon"
-          alt="LinkedIn"
-          title="LinkedIn"
-          src="./icons/linkedin.png"
-        />
-      </a>
+       <div className='direction-row'>
+           <a href="https://github.com/orlandochristian"><button className="github"></button></a>
+           <a href="https://github.com/orlandochristian"><button className="linkedin"></button></a>
+        </div> 
+        
+      
       </div>
       <div className='bothjc'>
       <img
