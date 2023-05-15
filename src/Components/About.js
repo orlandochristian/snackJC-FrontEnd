@@ -31,7 +31,7 @@ const About = () => {
           <a href="https://github.com/orlandochristian">
             GitHub
           </a>
-          <a href="https://www.linkedin.com">
+          <a href="https://www.linkedin.com/in/christian-orlando-it/">
             LinkedIn
           </a>
           </div>
