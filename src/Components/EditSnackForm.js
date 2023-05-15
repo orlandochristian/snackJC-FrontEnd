@@ -2,7 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useState, useEffect } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
-import SnackById from "../Pages/SnackById";
+//import SnackById from "../Pages/SnackById";
 import "../Style/SnackEdit.css";
 
 const API = process.env.REACT_APP_API_URL;
